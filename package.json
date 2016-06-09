@@ -1,0 +1,29 @@
+{
+  "name": "microframework-redis",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Redis integration with microframework",
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pleerock/microframework-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pleerock/microframework-redis/issues"
+  },
+  "tags": [
+    "microframework",
+    "redis"
+  ],
+  "peerDependencies": {
+    "microframework": "^0.5.4",
+    "redis": "^2.6.1"
+  },
+  "devDependencies": {
+  }
+}
