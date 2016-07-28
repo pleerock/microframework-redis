@@ -1,4 +1,4 @@
-import {RedisClient} from "~redis/index";
+import {RedisClient} from "@types/redis";
 
 export class RedisClientFactory {
 

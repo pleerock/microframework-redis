@@ -1,7 +1,7 @@
 {
   "name": "microframework-redis",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redis integration with microframework",
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
@@ -25,5 +25,27 @@
     "redis": "^2.6.1"
   },
   "devDependencies": {
+    "@types/node": "^4.0.30",
+    "chai": "^3.5.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^6.0.2",
+    "gulp-typescript": "^2.13.6",
+    "gulpclass": "^0.1.1",
+    "microframework": "^0.5.4",
+    "redis": "^2.6.1",
+    "remap-istanbul": "^0.6.4",
+    "ts-node": "^1.2.1",
+    "tslint": "^3.14.0-dev.1",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^2.1.0-dev.20160728"
+  },
+  "dependencies": {
+    "@types/redis": "^0.12.27"
   }
 }

@@ -2,7 +2,7 @@ import {Module, ModuleInitOptions} from "microframework/Module";
 import {RedisModuleConfig} from "./RedisModuleConfig";
 import {RedisClientFactory} from "./RedisClientFactory";
 import * as redis from "redis";
-import {RedisClient} from "~redis/index";
+import {RedisClient} from "redis";
 
 /**
  * Redis module integration with microframework.

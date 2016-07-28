@@ -1,6 +1,7 @@
 {
     "version": "1.8.0",
     "compilerOptions": {
+        "lib": ["es5", "es2015.promise"],
         "outDir": "build/es5",
         "target": "es5",
         "module": "commonjs",
@@ -13,8 +14,6 @@
     },
     "exclude": [
         "build",
-        "node_modules",
-        "typings/browser.d.ts",
-        "typings/browser"
+        "node_modules"
     ]
 }
