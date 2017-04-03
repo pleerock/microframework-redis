@@ -1,3 +1,5 @@
+> This repository is deprecated. Microframework architecure has changed. Please consider writing your own module for a newer versions of microframework.
+
 # Redis module for Microframework
 
 Adds integration between [redis](https://github.com/NodeRedis/node_redis) and
